@@ -1,0 +1,28 @@
+.six{
+    background-image: url(./../../../../assets/images/background.jpg);
+    background-size: cover;
+    height: 100vh;} 
+
+.six .parnt{
+    background-color: rgba(0, 0, 0, 0.796);
+    background-size: cover;
+    height: 100vh;
+}
+
+.form-control{
+    width: 50% ;
+}
+.buton{
+    top: 12%;
+    left: 72.2%;
+}
+.buton a svg{
+    color: black;
+}
+
+.footer h4{
+    color: white;
+}
+.footer h4:hover{
+    color: red;
+}

@@ -1,0 +1,42 @@
+.centerimg img{
+    margin-top: 10%;
+    width: 100%;
+}
+
+.hd img{
+    width: 17%;
+    height: 20%;
+    transition: 1s;
+}
+.hd img:hover{
+   width: 20%;
+   height: 25%;
+    
+}
+
+.three .three-parent .p-threeparent{
+    letter-spacing: 7px;
+}
+
+.three .three-parent .three-child2 .hd-child , .about{
+    width: 70%;
+}
+
+@media (max-width:915px) {
+    .three-child{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hd img{
+        width: 12%;
+        height: 15%;
+        transition: 1s;
+    }
+
+    .hd img:hover{
+        width: 16%;
+        height: 18%;
+         
+     }
+}

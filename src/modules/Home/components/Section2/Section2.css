@@ -1,0 +1,130 @@
+.two .two-parent .h5child{
+    letter-spacing: 5px !important;
+}
+
+.two .img img{
+    width: 100%;
+}
+
+.hotspot1{
+    width: 1vw;
+    height: 1vh;
+    top: 61%;
+    left: 89%;
+    transform: translate(-61%, -88%);
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    animation-name: hotspot1;
+    animation-duration: 1s;
+  animation-iteration-count:infinite ;
+}
+@keyframes hotspot1 {
+    0% {background-color: black;}
+    50%{background-color: red;}
+}
+
+.vl1 , .vl3{
+
+    height: 25vh;
+    border-left: 1px solid black;
+}
+
+.hotspot2{
+    width: 1vw;
+    position: absolute;
+    height: 1vh ;
+    top: 61%;
+    left: 60%;
+    transform: translate(-61%, -88%);
+    background-color: red;
+    border-radius: 50%;
+    animation-name: hotspot2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hotspot2{
+    0% {background-color: black;}
+    50%{background-color: red;}
+}
+
+.hotspot3{
+    width: 1vw;
+    position: absolute;
+    height: 1vh;
+    top: 62%;
+    left: 38%;
+    transform: translate(-61%, -88%);
+    background-color: red;
+    border-radius: 50%;
+    animation-name: hotspot3;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes hotspot3{
+    0% {background-color: black;}
+    50%{background-color: red;}
+}
+
+.hotspot4{
+    width: 1vw;
+    position: absolute;
+    height: 1vh;
+    top: 62%;
+    left: 15%;
+    transform: translate(-61%, -88%);
+    background-color: red;
+    border-radius: 50%;
+    animation-name: hotspot4;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hotspot4{
+    0% {background-color: black;}
+    50%{background-color: red;}
+}
+
+.vl1 , .vl3{
+
+    height: 30vh;
+    border-left: 1px solid black;
+}
+
+
+.vl2 , .vl4{
+
+    height: 30vh;
+    border-left: 1px solid black;
+}
+
+
+.contains .powerimg{
+    margin-left: 3%;
+    margin-right: 3%;
+    
+}
+.contains .powerimg img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    
+}
+@media (max-width:744px){
+    .contains{
+        margin-top: 15%;
+    }
+}
+@media (max-width:430px){
+    .contains{
+        margin-top: 30%;
+    }
+}
+
+.contains .powerimg h5:hover{
+    color: red;
+    transition: all .5s;
+}

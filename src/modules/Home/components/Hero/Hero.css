@@ -1,0 +1,39 @@
+.hero img{
+    width: 30% !important;
+}
+
+.hero .first-slide, .third-slide{
+    background-color: black;
+    
+}
+
+.hero .second-slide{
+    background-image: url(./../../../../assets/images/marble.jpg);
+}
+
+
+
+.carousel-indicators{
+    display: none !important;
+} 
+
+.slide-text{
+    width: 30%;
+    margin: 0 0 15% 50%;
+}
+
+@media (max-width:753px){
+    .slide-text{
+        width: 32%;
+        margin: 25% 0 0 50%;
+    }
+
+    .slide-text h5{
+        margin-bottom: 0;
+        font-size: 1rem !important;
+    }
+
+    .slide-text p{
+        font-size: 1.1rem !important;
+    }
+}

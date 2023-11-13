@@ -1,0 +1,48 @@
+.one .different .card{
+    border: none;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one .different .card .card-title{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.one .different .card .card-title:hover{
+    color: red;
+    transition: all 1s;
+}
+
+.one .different .card .card-text{
+    font-size: 30px;
+}
+
+
+.one .different .card .card-text:hover{
+    color: red;
+    transition: all 1s;
+}
+
+
+.one .different p{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.one .card img{
+    width: 50%;
+}
+
+.one .card img:hover{
+    width: 40%;
+    transition: width 1s;
+}
+.one .card .card-footer{
+    border: none;
+    background-color: transparent;
+}
